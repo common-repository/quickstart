@@ -1,0 +1,3 @@
+<strong>INCOMPATIBILITY NOTICE</strong>
+
+Due to WordPress 4.4 finally implementing their own <code>get/the_post_thumbnail_url()</code> function, the one added by the Attachment helper has been renamed to <code>get/the_post_attachment_image_url()</code>. Please update your theme files to use this new name for the function.
